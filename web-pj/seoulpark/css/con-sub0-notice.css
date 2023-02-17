@@ -1,0 +1,53 @@
+
+a {color:#000;}
+#sub0vis {background:url(../img/sub_visual00.png) no-repeat 0 0; height:119px; width:100%}
+
+/* 전부 #content 안에 있음 */
+/* -- leftcon -- */
+#sub0con1 {margin:0 auto; width:1100px}
+#leftcon {float:left; text-align:left; border:1px solid #e2e2e2; width:180px; border-top:none; margin-right:50px}
+.leftconT {width:180px; height:110px; background:#ffdc65; text-align:center;}
+.leftconT h3 {font-size:22px; padding-top:42px; color:#fff; font-weight:500; letter-spacing:-1px;}
+#leftcon ul {width:180px; height:414px; text-align:left; background:#fff;}
+#leftcon li {line-height:45px; font-size:14px; font-weight:300; border-bottom:1px solid #e2e2e2; padding-left:20px; letter-spacing:-0.5px;}
+#leftcon a {}
+#leftcon li:last-child {border-bottom:none}
+
+.submenu-Now {background:#fffbed}
+.submenu-Now a {color:#ffb500; font-weight:500}
+
+#leftcon li:hover {background:#fffbed}
+#leftcon li:hover a {color:#ffb500; font-weight:500}
+
+/* -- rightcon -- */
+#rightCon {margin:0 auto}
+#rightCon .conHeader {height:180px}
+#rightCon .conHeaderT h2 {position:relative; text-align:left; font-size:28px; font-weight:700; line-height:60px; padding-top:30px; letter-spacing:-1px;}
+#rightCon .conHeaderT p {position:relative; text-align:left; padding-bottom:20px; left:1px; letter-spacing:-1px; font-weight:200; font-size:14px; color:#727272}
+#rightCon .conHeaderT p:after {content:''; display:block; width:50px; border-bottom:4px solid #ffdc65; margin-left:233px; margin-top:24px}
+#rightCon .conTop {position:relative; float:right; margin-right:-10px}
+#rightCon .conTop a {}
+#rightCon .conTop p {font-weight:300; font-size:13px; margin-right:100px; top:0; margin-top:-90px}
+#rightCon .conTop strong {font-weight:500}
+
+#rightCon .conBody .conBg00 .dataBoard {border-top:solid #ffdc65; border-bottom:solid #ffdc65; margin-top:14px; width:780px; background:url(../img/noticeimg/dataBoardTop.png) no-repeat 0 0; ;text-align:center; margin-bottom:14px}
+#rightCon .conBody .conBg00 .dataBoard thead {background:rgba(255,220,101,0.2)}
+#rightCon .conBody .conBg00 .dataBoard thead th {height:40px; font-size:14px; font-weight:300; }
+#rightCon .conBody .conBg00 .dataBoard tbody {font-size:11px; font-weight:300; font-family:'돋움'}
+#rightCon .conBody .conBg00 .dataBoard tbody td {border-bottom:1px solid #ccc; padding:11px 0 11px 0}
+#rightCon .conBody .conBg00 .dataBoard tbody td a {float:left}
+
+#rightCon .conBody .conBg00 .page {text-align:center; margin-bottom:34px; margin-left:155px; margin-top:35px}
+#rightCon .conBody .conBg00 .page a {font-weight:300}
+#rightCon .conBody .conBg00 .page li:nth-child(3) {margin-left:6px; letter-spacing:6px}
+
+#rightCon .conBody .conBg00 .dataBoard thead .end {background-image:none;}
+#rightCon .conBody .conBg00 .dataBoard .tit {text-align:left; text-indent:10px}
+.search {float:right; margin-right:52px}
+.search .searchbox {width:130px; height:24px}
+.search select {height:24px; padding-bottom:1px; font-size:12px; padding-top:3px;}
+.search option {font-size:12px}
+
+#rightCon .conBody .conBg00 .page li {display:inline-block}
+#rightCon .conBody .conBg00 .page li:first-child {padding-right:5px}
+#rightCon .conBody .conBg00 .page li:last-child {padding-left:5px}

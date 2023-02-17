@@ -1,0 +1,33 @@
+
+#contents {height:1150px}
+#logvis {position: relative; background:url(../img/loginimg/loginbg.png) no-repeat 0 0; background-size : cover; height:1100px}
+
+#loginW .loginWrap {position:absolute; margin:0 auto; top:35%; left:25.5%; text-align:center; background:#ffff no-repeat 0 0; width:910px; height:980px; letter-spacing:-1px}
+#loginW h1 {position:absolute; width:910px; top:25%; left:25.5%; text-align:center; color:#000; font-size:33px; font-weight:300; letter-spacing:-1px}
+#loginW h1:after {position:relative; left:46.6%; content:''; display:block; width:60px; border-bottom:4px solid #ffdc65; margin-top:20px}
+
+.loginWrap h2 {margin-top:50px; font-weight:300; font-size:24px; }
+.loginWrap h2 span {font-size:21px; font-weight:200; line-height:50px}
+.loginWrap h2 strong {font-weight:400}
+
+.loginBox {margin:0 auto; margin-top:50px; border-top:1px solid #353535; border-bottom:1px solid #353535; background:#fffbed;width:780px; height:710px}
+.loginBox > h3 {font-size:28px; font-weight:500; margin-top:50px; margin-bottom:40px}
+.loginForm {margin-top:50px}
+.loginForm input {margin:0 auto; display:block; margin-top:15px; width:480px; height:50px}
+.loginForm #id {border:1px solid #dcdcdc}
+.loginForm #pw {border:1px solid #dcdcdc}
+.loginForm #login {border:none; margin-top:30px; font:100%/1.2 'Noto Sans KR', AppleGothic, sans-serif; font-size:16px; background:#a88b47;color:#000}
+
+.chek {margin-top:20px; margin-bottom:40px; margin-right:370px}
+.chek input {cursor:pointer}
+.chek label {font-weight:300}
+.login_btn {position:relative; margin-left:80px}
+.login_btn a {color:#000}
+.login_btn li {display:inline-block; margin-right:40px; font-weight:300}
+.login_btn li:after {content:'ㅣ'; margin-left:40px; color:#c2c2c2; font-weight:100; font-size:12px}
+.login_btn li:last-child:after {content:''}
+
+.social {margin:0 auto; margin-top:40px; padding-top:25px; background:#f6f2e5;width:490px; height:175px}
+.social h3 {text-align:left; margin-bottom:15px; margin-left:20px; font-weight:500}
+.social li {text-align:left; margin-left:30px; line-height:22px; font-weight:300}
+.social button {width:220px; height:50px; margin-top:20px; margin-left:8px; margin-right:4px; border:none;}

@@ -1,0 +1,30 @@
+textarea {font-size:12px; color:#000; line-height:20px}
+
+#contents {height:1650px}
+#logvis {position: relative; background:url(../img/loginimg/loginbg.png) no-repeat 0 0; background-size : cover; height:1100px}
+
+#joinW .joinWrap {position:absolute; margin:0 auto; top:35%; left:25.5%; text-align:center; background:#ffff no-repeat 0 0; width:910px; height:1400px; letter-spacing:-1px}
+#joinW h1 {position:absolute; width:910px; top:25%; left:25.5%; text-align:center; color:#000; font-size:33px; font-weight:300; letter-spacing:-1px}
+#joinW h1:after {position:relative; left:46.6%; content:''; display:block; width:60px; border-bottom:4px solid #ffdc65; margin-top:20px}
+
+.joinWrap h2 {margin-top:50px; font-weight:300; font-size:24px; }
+.joinWrap h2 span {font-size:21px; font-weight:200; line-height:50px}
+.joinWrap h2 strong {font-weight:400}
+
+.joinBox {margin:0 auto; margin-top:50px; border-top:1px solid #353535; border-bottom:1px solid #353535; background:#fffbed;width:780px; height:1225px}
+.joinForm {margin-top:100px}
+.joinBox h3 {font-size:28px; font-weight:500; margin-top:40px; margin-bottom:40px}
+.joinBox #id {text-align:left;}
+.joinBox label {margin-left:5px; font-weight:400; font-size:17px; line-height:23px}
+.joinBox .checkW {text-align:left; margin-left:80px; font-weight:300; font-size:14px; line-height:23px; margin-top:5px}
+.joinBox p {text-align:left; margin-left:81px; font-weight:300; font-size:14px; line-height:23px; margin-top:5px}
+
+.text .agree {margin:0 auto; margin-top:30px; padding-top:15px;width:620.6px; height:40px; background:#ffdc65;}
+.text .agree strong {font-weight:500}
+.text .agree input {float:left; margin-top:6px; margin-left:15px; margin-right:2px}
+.text .agree label {float:left; font-weight:300}
+.text textarea {padding-left:20px; width:620px; height:200px; border-top:none; border: 1px solid #dddddd}
+.agree4 {float:left; margin-top:20px; margin-left:95px; margin-right:2px}
+
+.btn_join {position:absolute; margin:0 auto; margin-left:100px}
+.btn_join input {display:inline-block; width:280px; height:50px; font-size:19px; font-weight:400; margin-top:90px; margin-right:20px; border:none}

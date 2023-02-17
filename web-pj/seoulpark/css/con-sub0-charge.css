@@ -1,0 +1,87 @@
+
+a {color:#000;}
+#sub0vis {background:url(../img/sub_visual00.png) no-repeat 0 0; height:119px; width:100%}
+
+/* 전부 #content 안에 있음 */
+/* -- leftcon -- */
+#sub0con1 {margin:0 auto; width:1100px; height:3130px;}
+#leftcon {float:left; text-align:left; border:1px solid #e2e2e2; width:180px; height:auto; border-top:none}
+.leftconT {width:180px; height:110px; background:#ffdc65; text-align:center;}
+.leftconT h3 {font-size:22px; padding-top:42px; color:#fff; font-weight:500; letter-spacing:-1px;}
+#leftcon ul {width:180px; height:414px; text-align:left; background:#fff;}
+#leftcon li {line-height:45px; font-size:14px; font-weight:300; border-bottom:1px solid #e2e2e2; padding-left:20px; letter-spacing:-0.5px;}
+#leftcon li:last-child {border-bottom:none}
+
+.submenu-Now {background:#fffbed}
+.submenu-Now a {color:#ffb500; font-weight:500}
+
+#leftcon li:hover {background:#fffbed}
+#leftcon li:hover a {color:#ffb500; font-weight:500}
+
+/* -- rightcon -- */
+#rightCon {margin:0 auto; height:3130px; width:900px; float:left}
+#rightCon .conHeader {height:180px; margin-left:50px; }
+#rightCon .conHeaderT h2 {text-align:left; font-size:28px; font-weight:700; line-height:60px; padding-top:30px; letter-spacing:-1px;}
+#rightCon .conHeaderT p {text-align:left; left:1px; letter-spacing:-1px; font-weight:200; font-size:14px; color:#727272}
+#rightCon .conHeaderT p:after {content:''; display:block; width:50px; border-bottom:4px solid #ffdc65; margin-top:24px}
+#rightCon .conTop {position:relative; float:right;}
+#rightCon .conTop a {}
+#rightCon .conTop p {font-weight:300; margin-right:70px; font-size:13px; top:0; margin-top:-80px}
+#rightCon .conTop strong {font-weight:500}
+
+.chargechartWrap {margin-top:50px}
+.test {display:inline-block; margin-left:-20px}
+.conBody ul.Tchart li {float:left; display:block; width:388px}
+.conBody ul.Tchart > li > a {width:100%; display:inline-block; font-size:16px; line-height:40px; margin-bottom:20px}
+.conBody ul.Tchart > li > a.on {background:#ffa200; color:#fff; border:1px solid #ffa200;}
+.conBody ul.Tchart > li > a.off {background:#fff;  border:1px solid #ffa200; color:#ff9000}
+
+.bTit {margin-left:50px; background:url(../img/chargeimg/Tit-icon.png) no-repeat 0px 2px}
+.sTit {position:relative; margin-left:50px; background:url(../img/chargeimg/Sit-icon.png) no-repeat 6px 6px; margin-bottom:10px}
+.sTit1 {margin-top:120px}
+.sTit2 {margin-top:120px}
+.sTit3 {margin-top:20px}
+.sTit4 {margin-top:200px}
+
+.sTit2 span {display:block; margin-top:7px; color:#7f7f7f; font-size:13px}
+.sTit2 span strong {font-weight:500}
+.time h2, .fare-info h2, .redu-usage h2 {float:left; padding-left:20px; font-size:16.5px; font-weight:500; letter-spacing:-1px; margin-top:-30px}
+.time h5, .fare-info h5, .redu-usage h5 {text-align:left; padding-left:20px; font-size:14px; font-weight:400; letter-spacing:-1px; color:#ff9000;}
+
+table {border-spacing: 0; border-collapse: collapse; margin-left:50px;}
+.time {margin-top:40px}
+.time tbody th {font-weight:normal}
+.time tbody {border-top:3px solid #ffa200}
+.time tbody th.t1 {font-size:14px; text-align:center; background-color:#fff9ef; border-bottom:1px solid #dbdbdb; border-right:1px solid #dbdbdb}
+.time tbody th.t2 {font-size:13.5px; text-align:center; background-color:#f9f9f9; border-bottom:1px solid #dbdbdb; border-right:1px solid #dbdbdb}
+.time tbody td.last {padding-left:15px; font-size:13px; text-align:left; font-weight:200; border-bottom:1px solid #dbdbdb}
+
+.fare-info {margin-top:60px;}
+.fare-info tbody { border-top:3px solid #ffa200;}
+.fare-info tbody th {font-weight:normal}
+.fare-info tbody th.t1 {font-size:14px; text-align:center; background-color:#f9f9f9; border-bottom:1px solid #dbdbdb; border-right:1px solid #dbdbdb}
+.fare-info tbody th.t2 {font-size:13.5px; text-align:center; background-color:#f9f9f9; border-bottom:1px solid #dbdbdb; border-left:1px solid #dbdbdb}
+.fare-info tbody td.last {font-size:13px; text-align:center; font-weight:200; border-bottom:1px solid #dbdbdb; border-left:1px solid #dbdbdb}
+
+.pList1 {width:600px; margin-left:50px; letter-spacing:-0.5px; position:absolute; margin-top:230px}
+.pList2 {width:600px; margin-left:50px; letter-spacing:-0.5px; position:absolute; margin-top:150px}
+.pList3 {width:600px; margin-left:50px; letter-spacing:-0.5px; position:absolute; margin-top:292px}
+.pList4 {width:600px; margin-left:50px; letter-spacing:-0.5px; position:absolute; margin-top:140px}
+.pList1 li, .pList2 li, .pList4 li {padding-left:15px; line-height:24px; font-size:13px; font-weight:200; text-align:left; background:url(../img/chargeimg/pList-icon.png) 0 no-repeat}
+.pList3 li {padding-left:15px; line-height:24px; font-size:13px; font-weight:200; text-align:left; background:url(../img/chargeimg/pList-icon.png) 0 8px no-repeat}
+.pList li strong {font-weight:400; color:#2e2e2e}
+
+.fare-info tbody td {font-size:13px; text-align:center; font-weight:200; border-bottom:1px solid #dbdbdb; border-left:none}
+
+.redu-usage {margin-top:140px}
+.redu-usage tbody { border-top:3px solid #ffa200;}
+.redu-usage tbody th {font-weight:normal}
+.redu-usage tbody th.t1 {font-size:14px; text-align:center; background-color:#f9f9f9; border-bottom:1px solid #dbdbdb; border-right:1px solid #dbdbdb}
+.redu-usage tbody th.t2 {font-size:13.5px; text-align:center; background-color:#f9f9f9; border-bottom:1px solid #dbdbdb; border-left:1px solid #dbdbdb}
+.redu-usage tbody td.last {font-size:12px; text-align:center; font-weight:200; border-bottom:1px solid #dbdbdb; border-left:1px solid #dbdbdb}
+
+.admExp {margin-top:60px; margin-left:50px}
+.admExp p {float:left; background:#f9f9f9; border:1px solid #c2c2c2; padding:15px 22px 15px 22px; font-weight:300; font-size:13.5px; letter-spacing:-0.5px}
+.admExp strong {font-weight:500}
+.admExp span:after {content:' ㅣ '; color:#c2c2c2; font-size:13px}
+.admExp span:last-child:after {content:''}

@@ -1,0 +1,93 @@
+
+a {color:#000;}
+#sub0vis {background:url(../img/sub_visual00.png) no-repeat 0 0; height:119px; width:100%}
+
+/* 전부 #content 안에 있음 */
+/* -- leftcon -- */
+#sub0con1 {margin:0 auto; width:1100px; height:800px;}
+#sub0con2 {margin:0 auto; width:1100px; height:800px}
+#leftcon {float:left; text-align:left; border:1px solid #e2e2e2; width:180px; height:auto; border-top:none}
+.leftconT {width:180px; height:110px; background:#ffdc65; text-align:center;}
+.leftconT h3 {font-size:22px; padding-top:42px; color:#fff; font-weight:500; letter-spacing:-1px;}
+#leftcon ul {width:180px; height:auto; ext-align:left; background:#fff;}
+#leftcon li {line-height:45px; font-size:14px; font-weight:300; border-bottom:1px solid #e2e2e2; padding-left:20px; letter-spacing:-0.5px;}
+#leftcon li:last-child {border-bottom:none}
+
+.submenu-Now {background:#fffbed}
+.submenu-Now a {color:#ffb500; font-weight:500}
+
+#leftcon li:hover {background:#fffbed}
+#leftcon li:hover a {color:#ffb500; font-weight:500}
+
+/* -- rightcon -- */
+#rightCon {margin:0 auto; height:auto; width:900px; float:left}
+#rightCon2 {margin:0 auto; height:auto; width:900px; float:left}
+.conHeader {height:180px; margin-left:50px; }
+.conHeaderT h2 {text-align:left; font-size:28px; font-weight:700; line-height:60px; padding-top:30px; letter-spacing:-1px;}
+.conHeaderT p {text-align:left; left:1px; letter-spacing:-1px; font-weight:200; font-size:14px; color:#727272}
+.conHeaderT p:after {content:''; display:block; width:50px; border-bottom:4px solid #ffdc65; margin-top:24px}
+.conTop {position:relative; float:right;}
+.conTop a {}
+.conTop p {font-weight:300; font-size:13px; top:0; margin-top:-80px; margin-right:70px;}
+.conTop strong {font-weight:500}
+
+.photoGalleryWrap {margin-left:50px; width:780px}
+.photoGalleryWrap > h3 {text-align:left; background:#f9f9f9; padding:15px 20px; border-top:3px solid #000; font-weight:400; letter-spacing:-1px}
+.infor {text-align:left; padding:13px 0px 30px 10px; border-top:1px solid #dbdbdb}
+.file {border-bottom:1px solid #b8b8b8}
+.infor .t {width:13%; float:left; text-align:center; font-weight:400; letter-spacing:-0.5px; font-size:13.5px; background: url(../img/viewimg/boardLine.png) right center no-repeat;}
+.infor .writer, .infor .down {font-size:13px; font-weight:300; color:#949494; width:58%; float:left; padding-left:3%; font-weight:300;}
+.infor .count {width:13%; float:left; text-align:center; font-weight:300; font-weight:300; color:#949494;}
+.down > a {font-weight:300; color:#949494;}
+
+.photoCon {margin-top:50px}
+.photoCon img {width:700px; height:auto}
+
+.sns-login {margin:0 auto; width:780px; height:auto; border:0.5px solid #dbdbdb; margin-top:30px}
+.sns-login-list li {float:left; margin-right:5px; margin-top:10px}
+.sns-login-list button {cursor:pointer; background:none; border:1px solid #dbdbdb}
+.sns-login-list button > img {width:40px}
+.guest {float:left}
+.guest input {margin-top:25px; margin-left:10px; height:34px; border:none; border-bottom:1px solid #dbdbdb; width:150px; letter-spacing:-0.5px}
+.guest button {border:none; background:none; color:#aaa}
+.wf textarea {width:780px; height:80px; resize:none; padding:15px; margin-top:20px; border:1px solid #dbdbdb; background:#f9f9f9;
+font: 100%/1.2 'Noto Sans KR', AppleGothic, sans-serif; font-size:14px; font-weight:300;}
+.wf textarea:focus {outline: none;}
+.function-wrap {width:778px; height:35px; border:1px solid #dbdbdb; background:#f9f9f9; border-top:none}
+.filebox label {padding: .5em .75em; vertical-align: middle; cursor: pointer; }
+.filebox label > img {float:left; margin-left:8px; width:20px; text-align:left; margin-top:8px}
+/* 파일 필드 숨기기 */ 
+.filebox input[type="file"] {position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0; }
+.info-Icon {border:none; float:right; margin-right:10px; margin-top:-5px; color:#b5b5b5}
+.regist-bt {float:right; width:15%; cursor:pointer; border:none; background:#ffa200; font-weight:500;  letter-spacing:-0.5px; font-size:15px; color:#fff; border-left:1px solid #dbdbdb; height:38px; margin-top:-18px}
+.noreply-wrap {text-align:center; margin-top:50px; margin-bottom:80px}
+.noreplay-txt {cursor:default; margin-top:20px; color:#b7b7b7}
+.noreplay-txt p { font-weight:300; font-size:14px}
+
+.snsShare {display:inline-block; float:right}
+.snsShare .fb {margin-right:2px; background:#1c468e; color:#fff; padding:6px 15px 6px 15px; border-radius:5px; font-size:12.5px; font-weight:300}
+.snsShare .tw {background:#0178cc; color:#fff; padding:6px 15px 6px 15px; border-radius:5px; font-size:12.5px; font-weight:300}
+
+/* .ListBox {text-align:left} */
+.ListBox {margin-top:120px}
+.ListBox > dl.pnList {height:44px; line-height:44px; overflow:hidden; border-bottom:1px solid #dbdbdb; font-size:13px; background:#f3f3f3}
+.ListBox > .pnList dt {text-align:right; width:84px; float:left; font-weight:500; color:#3d3d3d}
+.ListBox > .pnList dt > i {margin-right:10px}
+.ListBox > .pnList dd {float:left; padding:0 40px; overflow:hidden; /* white-space:nowrap; text-overflow:ellipsis; */}
+.ListBox > .pnList dd > a {font-weight:300; color:#4f4f4f}
+
+.borderBtn {margin-top:40px}
+.borderBtn > a {display: inline-block; line-height:40px; background:#ae7819; color:#fff; font-weight:500; font-size:16px; width:110px; height:40px}
+
+.conBody {margin-left:50px; margin-right:70px;}
+.conTxt {text-align:left}
+.conTxt h2 {line-height:30px; margin-bottom:10px; color:#ae1932;}
+.conTxt p {line-height:25px; font-weight:300}
+.conTxt strong {font-weight:500; color:#4b4b4b}
+
+.admExp {margin-top:100px;}
+.admExp p {float:left; background:#f9f9f9; border:1px solid #c2c2c2; padding:15px 22px 15px 22px; font-size:13.5px; letter-spacing:-0.5px}
+.admExp strong {font-weight:500}
+.admExp span {color#6f6f6f; font-weight:100}
+.admExp span:after {content:' ㅣ '; color:#c2c2c2; font-size:13px}
+.admExp span:last-child:after {content:''}
