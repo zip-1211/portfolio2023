@@ -1,0 +1,179 @@
+/*  reset  */
+* {margin:0; padding:0}
+li {list-style:none}
+a {text-decoration:none}
+img {vertical-align:center}
+body {margin:0; padding:0}
+body, button, input, label, option, span, p {font: 100%/1.2 'Noto Sans KR', AppleGothic, sans-serif; font-size:14px}
+a:hover, a:active, a:focus {color:#000}
+.lg-en {font-family:"Roboto", "Noto", sans-serif;}
+
+#header {margin:0 auto; text-align:center; height:158px; width:100%; background:#fff}
+#visual {margin:0 auto; width:100%;}
+#container {margin:0 auto; text-align:center; letter-spacing:-1px}
+.con1 {height:1800px}
+/* 마크 업 */
+
+.inner {margin:0 auto; width:1280px;}
+.inner .logo {text-align:center; padding-top:30px}
+
+.top_inner {position:absolute; width:1280px; height:110px; background:#fff}
+.top_inner img {position:absolute; margin-left:-1.2em}
+.top_inner > ul > li {float:right; margin-left:1em; margin-top:1em; padding:10px 15px 10px 15px; border-radius:6em}
+.top_inner > ul > li > a {color:#fff; font-weight:500; font-size:14px}
+.top_inner > ul > li:first-child {background:#264a36}
+.top_inner > ul > li:last-child {background:#ffbc0d}
+
+#gnb_wrap {width:1000px; margin:0 auto; position:relative}
+#gnb {position:absolute; top:106px; right:0; z-index:10}
+#gnb:after {content:''; display:block; clear:both}
+#gnb > ul {margin-top:1.7em}
+#gnb > ul > li {float:left; width:200px; height:30px}
+#gnb > ul > li > a {font-size:17px; font-weight:600; color:#000}
+#gnb > ul > li > a:hover {color:#fdc82f}    
+#gnb > ul > li:after {content:''; display:block; margin:24px auto; width:0; height:3px; background:#fdc82f; transition:0.4s} /* background:rgba(213,43,30,0.5) */
+#gnb > ul > li:hover:after {width:50%}
+
+.sub {position:absolute; top:88px; width:200px; display:none}
+.sub li > a {font-size:14px; font-weight:400; line-height:3; color:#393939}
+.sub li > a:hover {color:#fdc82f}
+
+.menu_bar {height:300px; position:absolute; width:100%; background:#fff; border-top:1px solid #eee; border-bottom:1px solid #eee; left:0; top:176px; display:none; z-index:9}
+
+/* 비주얼 슬라이드 */
+
+#visual {position:relative}
+.vis-txt {position:absolute; bottom:0; left:50%; width:480px; height:80px; font-size:21px; font-weight:500; letter-spacing:-1px; z-index:1}
+.vis-txt ul li {float:left; width:240px; height:85px}
+.vis-txt ul li:first-child {text-align:center; background-color:#ffbc0d; background-image:url(../images/new.png); border-top-left-radius:40px}
+.vis-txt ul li:last-child {text-align:center; background-color:#b32025; background-image:url(../images/store.png); border-top-right-radius:40px}
+.vis-txt ul li:hover {cursor:pointer}
+.vis-txt ul li:first-child:hover {background-color:#ffbc0d; background-image:url(../images/new.png); background-position:absolute; background-repeat:no-repeat}
+.vis-txt ul li:last-child:hover {background-color:#b32025; background-image:url(../images/store.png); background-position:absolute; background-repeat:no-repeat}
+/* .vis-txt ul li img {display:none; position:absolute; width:215px; bottom:0; } */
+/* .vis-txt ul li:first-child:hover img {display:block; left:15px} */
+.vis-txt ul li:hover a {font-size:21.5px; font-weight:600}
+.vis-txt ul li:last-child:hover img {display:block; right:15px}
+.vis-txt li:first-child a {color:#000}
+.vis-txt a {color:#fff; display: inline-block; padding: 27px 0 0 0;}
+
+/* 컨테이너 */
+#container .con1bg {width:100%; height:500px; background-image:url(../images/con1bg.png);}
+#container .con1 {margin:0 auto; width:1280px; height:500px}
+#container .con1 h2 {font-size:30px; font-weight:100; line-height:3.5; margin-bottom:1.3em}
+
+/* 컨테이너2 */
+#container .con2bg {width:100%; height:500px; background-image:url(../images/con2bg.jpg);}
+#container .con2 {margin:0 auto; width:100%}
+#container .con2left {position:absolute; width:460px; margin-top:7em; text-align:left; color:#fff}
+.con2left {opacity: 0; animation: fadeLeft 3s forwards;}
+@keyframes fadeLeft {
+	from {
+	opacity:0;
+	margin-left:0%}
+	to {
+	opacity:1;
+	margin-left:16%}
+}
+.con2left p {font-size:60px; font-weight:100; margin-bottom:20px;}
+.con2left p > strong {font-weight:400}
+.con2left span {font-size:22px; line-height:1.8; font-weight:100}
+.con2left button {margin-top:60px; cursor:pointer; display:block; border:3px solid #fff; background:rgb(255,255,255,0.6); border-radius:50px; width:180px; height:50px; color:#4f7647; font-size:16px; font-weight:500}
+.con2left button:hover {background:rgb(79,118,71,0.4); color:#fff}
+.con2left button:after {content:'→'; transition:0.5s; opacity:0; font-size:12px;}
+.con2left button:hover:after {opacity:1; padding-left:10px;}
+
+.con2right img {position:absolute; margin-top:2.5em}
+
+/* con2right 이미지 순서대로 */
+.con2right img:nth-child(1) {opacity: 0; animation: fadeRight 3s forwards; animation-duration:4s}
+	@keyframes fadeRight {
+	from {
+	opacity: 0;
+	margin-left:25%}
+	to {
+	opacity: 1;
+	margin-left:-6%}
+	}
+.con2right img:nth-child(2) {opacity: 0; animation: fadeRight2 3s forwards; animation-duration:3.5s}
+	@keyframes fadeRight2 {
+	from {
+	opacity: 0;
+	margin-left:25%}
+	to {
+	opacity: 1;
+	margin-left:2%}
+	}
+.con2right img:nth-child(3) {opacity: 0; animation: fadeRight3 3s forwards; animation-duration:3s}
+	@keyframes fadeRight3 {
+	from {
+	opacity: 0;
+	margin-left:25%}
+	to {
+	opacity: 1;
+	margin-left:9%}
+	}
+.con2right img:nth-child(4) {opacity: 0; animation: fadeRight4 3s forwards; animation-duration:2.5s}
+	@keyframes fadeRight4 {
+	from {
+	opacity: 0;
+	margin-left:25%}
+	to {
+	opacity: 1;
+	margin-left:16%}
+	}
+.con2right img:nth-child(5) {opacity: 0; animation: fadeRight6 3s forwards; animation-duration:1.5s}
+	@keyframes fadeRight6 {
+	from {
+	opacity: 0;
+	margin-left:30%}
+	to {
+	opacity: 1;
+	margin-left:22%}
+	}
+
+/* 컨테이너3 */
+.con3bg {background-color:#fdfdfd; width:100%; height:1200px}
+.con3 {margin:0 auto; width:1280px}
+.con3 h2 {font-size:30px; font-weight:100; line-height:5}
+.con3top {}
+.con3top li {float:left; margin-left:2.15em; margin-right:2.15em; margin-bottom:2.15em}
+.con3top li a {color:#000;  font-size:21px; font-weight:300; line-height:1.6em}
+/* .con3top li a:hover .tit-txt {color:#ffbc0d;  font-size:21px; font-weight:400; line-height:1.6em}
+이거 말고 다른 효과 주기 , 뒤에 백그라운드에 샤샥 지나가든가 이미지별로 색 다 다르게 주든가 */
+.tit-img {width:366px; height:300px; overflow:hidden}
+.tit-img img {width:366px; height:300px; border-radius:10px 10px 0 0;}
+.tit-img img:hover {cursor:pointer;
+-webkit-transform:scale(1.05);
+-moz-transform:scale(1.05);
+-ms-transform:scale(1.05);
+-o-transform:scale(1.05);
+transform:scale(1.05);
+-webkit-webkit-transition: .60s;
+-moz-webkit-transition: .60s;
+-ms-webkit-transition: .60s;
+-o-webkit-transition: .60s;
+-webkit-transition: transform .60s;}
+.con3top .tit-txt {margin:0 auto; border-radius:0 0 10px 10px; background:white; padding-top:20px; width:364px; height:90px; border:1px solid #eee; border-top:none}
+.con3top .tit-txt strong {color:#264a36} /*색 맞춰서 바꾸기 */
+.con3readmore {display:none; width:1280px auto}
+.btnmore a {width:100%;}
+.btnmore img {margin:2em}
+
+/* footer */
+
+#footer {position:relative; display:inline-block; width:100%; height:340px; background:#292929;}
+#footer .inner {margin:0 auto; width:1280px auto;} 
+#footer h3 {font-weight:900; font-style:normal; margin-bottom:0.5em;  color:#f2f2f2;}
+
+.f_left {padding-top:40px}
+.f_info {float:left; margin-right:8em}
+.f_info li {font-weight:400; color:#afafaf}
+.f_info, .f_contact {line-height:35px;}
+.f_contact {width:450px}
+.f_contact li {font-weight:200; color:#afafaf}
+address {position:relative; float:left; font-size:14.5px; font-style:normal; line-height:35px}
+.f_icon {float:right; margin-top:-12em}
+.f_icon li {float:left; margin-left:1.2em}
+.f_icon li:last-child {margin-top:-0.5em}
+.copyright {font-size:14px; color:#afafaf}
