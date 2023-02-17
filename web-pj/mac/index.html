@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<title>M·A·C</title>
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/jquery.bxslider.css"> <!-- visual CSS -->
+
+	<!-- jQuery library -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.js"></script>
+
+	<!-- template jQuery -->
+	<script src="js/common.js"></script> 
+
+	<script> 
+		$(document).ready(function(){ 
+			$('.bxslider').bxSlider({
+				mode: 'horizontal',
+				moveSlides: 1,
+				slideMargin: 40,
+				infiniteLoop: true,
+				minSlides: 3,
+				maxSlides: 1,
+				speed: 800,
+				auto:true,
+				controls:false,
+				autoControls:false,
+				pager:true
+			});
+		});
+	</script>
+	
+</head>
+<body id="body1">
+  <div id="wrap">
+    <header id="header">
+	  <div><a href="#"><img id="menubar" src="img/icon_gnb.png" alt="menubar" /></a></div>
+	  <div><h1 class="h_logo"><a href="index.html"><img src="img/h_logo.png" alt="header_logo" /></a></h1></div>
+	  <div>
+		  <ul>
+			<li><a href="#"><img class="search_toggle" src="img/icon_sch.png" alt="searchbtn" /></a></li>
+		  </ul>
+	  </div>
+	</header><!-- header -->
+	<div id="search_wrap">
+	 <form action="#">
+	   <fieldset>
+	     <legend>검색창</legend>
+		 <input type="search" placeholder="Search..." />
+		 <input type="image" src="img/sch_m.png" />
+	   </fieldset>
+	 </form>	
+	</div>
+	<div id="gnb"> <!-- 메인삼선바 -->
+		<div class="gnbwrap">
+			<div class="login">
+		  		<ul>
+					<li><a href="login.html">LOGIN</a></li>
+					<li><a href="join.html">JOIN</a></li>
+					<li><a href="shopping.html">CART</a></li>
+					<li><a href="#">MY MAC</a></li>
+				</ul>
+			</div><!-- login -->
+		<div class="menulist">
+			<div class="collection">
+				<div class="title CLC"><a href="#">COLLECTION</a></div>
+				<div class="content1 CLC">
+					<div class="CLC_sub"><a href="#">- 19' HOLIDAY COLLECTION</a></div>
+				</div>
+			</div>
+			<div class="bestseller">
+				<div class="title BEST"><a href="#">BESTSELLER</a></div>
+			</div>
+			<div class="box_PD">
+				<div class="title PD"><a href="#">PRODUCT</a></div>
+				<div class="content1 PD">
+					<div class="PD_sub"><a href="lipstick.html">- LIP</a></div>
+					<div class="PD_sub"><a href="#">- EYE</a></div>
+					<div class="PD_sub"><a href="#">- FACE</a></div>
+					<div class="PD_sub"><a href="#">- SKINCARE</a></div>
+					<div class="PD_sub"><a href="#">- TOOL</a></div>
+				</div> <!-- content1 PD -->
+			</div> <!-- box_PD -->
+			<div class="story">
+				<div class="title STORY"><a href="story.html">M·A·C STORY</a></div>
+			</div>
+			<div class="store">
+				<div class="title STORE"><a href="store.html">STORE</a></div>
+			</div>
+		</div><!-- menulist -->
+		</div><!-- gnbwrap -->
+	  <div class="back"></div>
+	</div><!-- gnb -->
+	<div id="totopmenu">
+	  <div id="totop" class="topmenu"><a href="#body1"><img src="img/totop_circle.png" alt="top" /></a></div>	
+	</div><!-- totopmenu -->
+
+<!-- visual -->
+	<div id="visual">
+		<ul class="bxslider" id="photo">
+			<li><img src="img/visual1.jpg" alt="starringU1"></li>
+			<li><img src="img/visual2.jpg" alt="starringU2"></li>
+			<li><img src="img/visual3.jpg" alt="starringU3"></li>
+		</ul>
+	</div>
+
+<!-- contents -->
+	<div id="contents">
+		<div class="cont1">
+			<h1 class="cont_tit">2019 M·A·C STARRING YOU</br>HOLLIDAY COLLECTION</h1>
+			<div class="pd1">
+				<dl>
+					<dt><a href="detail.html"><img src="img/main_pd1.jpg" alt="키스오브스타즈립스틱" /></a></dt>
+					<dd>스타링 유 홀리데이 컬렉션</dd>
+					<dd>키스 오브 스타즈 립스틱</dd>
+				</dl>
+				<p><a href="detail.html">자세히 보기</a></p>
+			</div>
+			<div class="pd2">
+				<dl>
+					<dt><a href="lipglass.html"><img src="img/main_pd2.jpg" alt="립글라스" /></a></dt>
+					<dd>스타링 유 홀리데이 컬렉션</dd>
+					<dd>립글라스</dd>
+				</dl>
+				<p><a href="#">자세히 보기</a></p>
+			</div>
+			<div class="pd3">
+				<dl>
+					<dt><a href="#"><img src="img/main_pd3.jpg" alt="스타-대즐러키트" /></a></dt>
+					<dd>스타링 유 홀리데이 컬렉션</dd>
+					<dd>스타-대즐러 키트</dd>
+				</dl>
+				<p><a href="#">자세히 보기</a></p>
+			</div>
+			<div class="pd4">
+				<dl>
+					<dt><a href="#"><img src="img/main_pd4.jpg" alt="시그니처스타즈립스틱키트" /></a></dt>
+					<dd>스타링 유 홀리데이 컬렉션</dd>
+					<dd>시그니처 스타즈 립스틱 키트</dd>
+				</dl>
+				<p><a href="#">자세히 보기</a></p>
+			</div>			
+		</div> <!-- cont1 -->
+		<div class="cont2">
+			<h1 class="cont_tit">WHAT'S NEW</h1>
+			<div class="bn1"><a href="#"><img src="img/main_bn1.jpg" alt="new파우더키스" /></a></div>
+			<div class="bn2"><a href="#"><img src="img/main_bn2.jpg" alt="샷오브컬러립오일" /></a></div>
+			<div class="bn3"><a href="#"><img src="img/main_bn3.jpg" alt="미니맥" /></a></div>
+		</div> <!-- cont2 -->
+		<div class="cont3">
+			<h1 class="cont_tit">M·A·C STORY</h1>
+			<div class="bn4"><a href="story.html"><img src="img/main_bn4.jpg" alt="맥브랜드" /></a></div>
+			<div class="bn5"><a href="viva.html"><img src="img/main_bn5.jpg" alt="비바글램" /></a></div>
+			<div class="bn6"><iframe width="100%" height="350" src="https://www.youtube.com/embed/N47XC_0y9OM" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		</div> <!-- cont3 -->
+	</div><!-- contents -->
+
+<!-- footer -->
+	<footer id="footer">
+		<div class="sns">
+		    <ul>
+		    	<li><a href="https://www.facebook.com/MACCosmeticsKorea">facebook</a></li>
+		    	<li><a href="https://www.instagram.com/maccosmetics/">instagram</a></li>
+		    	<li><a href="https://twitter.com/MACcosmetics">twitter</a></li>
+				<li><a href="https://www.youtube.com/user/MACcosmeticsKR/MACCosmetics">youtube</a></li>
+		    </ul>
+		</div>
+		<div class="f_link">
+			<ul>
+				<li><a href="#">LOGOUT</a></li>
+				<li><a href="#">고객문의</a></li>
+				<li><a href="store.html">STORE</a></li>
+				<li><a href="#">메이크업서비스</a></li>
+			</ul>
+		</div>
+		<div class="yak">
+			<ul>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">개인정보 처리방침</a></li>
+			</ul>
+		</div>
+		<div class="f_info">
+			<ul>
+				<li>이엘씨에이한국(유) 대표 SLAVIN PAUL</li>
+				<li>서울시 강남구 강남대로 382 (역삼동) 메리츠타워, 06232</li>
+				<li>사업자등록번호:</li>
+				<li>211-81-71889</li>
+				</br>
+				<li>통신판매업신고번호: 강남-15737호</li>
+				<li><a href="#">사업자정보조회</a></li>
+				</br>
+				<li>고객관리지원팀:</li>
+				<li><a href="#">02-6971-3291</a></li>
+				</br>
+				<li><a href="#">USER_SUPPORT@KR.MACCOSMETICS.COM</a></li>
+				</br>
+			</ul>
+			<p class="copyright"><strong>© MAKE-UP ART COSMETICS.</strong></br>ALL WORLDWIDE RIGHTS RESERVED</br>호스팅서비스 사업자: ㈜엘지유플러스</p>
+		</div> <!-- f_info -->
+	</footer>
+
+  </div><!-- wrap -->
+</body>
+</html>
