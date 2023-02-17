@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+/* desktop */
+@media screen and (min-width:1000px){
+html, body {margin:0 auto; width:100%}
+#wrap {margin:0 auto; width:100%}
+#footer .fgnb_T, #footer .fgnb_M {display:none}
+#header #gnb_M {display:none}
+#header #gnb .main-b {margin-left:25px}
+}
+
+/* tablet */
+@media screen and (min-width:641px) and (max-width:999px){
+body {width:100%}
+#wrap, #visual, #header, #contents, #footer {width:100%}
+
+#header .inner {min-width:641px; width:100%; margin-bottom:20px}
+#gnb {margin:0 auto; font-size:13.5px; width:100%}
+
+#header .inner2 {min-width:641px; width:100%;}
+#gnb .main img {display:none}
+#gnb .menu {float:left; text-transform:uppercase; text-align:center;width:10%}
+#header #gnb_M {display:none}
+#header #gnb .main {position:relative; float:left; text-align:center; width:100%; background-color: #c41e20; height:30px;}
+#header #gnb .main a {display:block; width:100%;}
+#header #gnb .main .sub {width:140px; height:160px; background-color: #c41e20}
+#gnb .sub {display:none}
+
+#header .topgnb {display:none}
+#header .topgnb_T {display:block; float:right; position:relative; margin:0 auto; margin-top:-58px; margin-bottom:14px; margin-right:60px;}
+#header .topgnb_T img {display:block; margin-bottom:10px;}
+#header .inner .logo {margin:0 auto; /* position:absolute; */ position:relative;}
+#header .F_logo {margin-left:60px;}
+#header #search_box {position:absolute; text-align:center; margin-bottom:40px}
+#search_box {margin:0 auto; position:absolute; min-width:641px; width:100%; margin-top:5px; text-align:center}
+#search_box fieldset {border:2px solid #c41e20; border-radius:20px; display:inline; padding:4px}
+#search_box legend {display:none}
+#search_box input[type=text] {width:250px;height:30px; border:0;}
+#search_box input[type=image] {width:28px; height:28px; vertical-align:middle}
+
+#contents .tit1, #contents .tit3 {width:240px}
+#contents .tit2 {width:320px}
+
+#contents .cont1 {width:100%; height:auto}
+#contents .cont1:after {content:''; display:block; clear:both}
+#contents .cont1 p {color:#dc252e; font-size:16px;}
+
+#contents .notice {margin:0 auto; width:100%}
+#contents .notice img {margin-top:20px; float:left; width:33.33%; padding:0px;}
+#contents .notice1_2 {margin:0 auto; width:100%}
+#contents .notice1_2 img {margin-top:0px; float:left; width:100%; padding:0px;}
+#contents .notice1_3 {width:100%;}
+#contents .notice1_3 img {margin:0 auto; padding:0; width:100%; height:auto; padding:0}
+#contents .notice1_3 .N13 {width:50%}
+#contents .notice1_3_2 img {width:50%; float:left}
+#contents .notice1_3_3 img {width:50%; float:right}
+
+#contents .cont2 .tit {margin:0 auto; width:100%; }
+#contents .cont2 p {color:#dc252e; font-size:14px; line-height:80px}
+#contents .cont2 .notice2 {width:100%; height:230px;}
+#contents .cont2 .notice2 img {width:30%; height:auto;}
+
+/* 슬라이드 버튼 */
+.nav {width:100%;}
+.prev {float:left; margin-left:20px}
+.next {float:right; margin-right:17px}
+.prev, .next {cursor: pointer; top: 50%; width: auto; padding: 16px; margin-top: -145px;
+color: white; font-weight: bold; font-size: 18px; transition: 0.6s ease; border-radius: 0 3px 3px 0;}
+/* Position the "next button" to the right */
+.next {right: 0; border-radius: 3px 0 0 3px;}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);}
+
+#contents .con3 {margin:0 auto; width:100%; text-align:center;}
+#contents .Nicon {margin:35px 40px 0 18px}
+#contents .Nicon Img {margin:0 auto; width:50px; margin-left:20px;}
+
+#NewAllWrap {width:100%;}
+#contents .NewAll {width:100%;}
+#contents .NA1, #contents .NA3 {margin:0 auto;}
+#contents .NA1 {width:100%; float:left; margin-bottom:0}
+#contents .NA3 {width:100%; float:right; }
+#contents .NA1 img {height:auto; width:50%; float:left; margin-bottom:-20px;}
+#contents .NA3 img {height:auto; width:50%; float:right;}
+#contents .NA2 {display:none}
+
+#footer {padding:0; margin:0 auto; width:100%}
+#footer .fgnb, #footer .fgnb_M {display:none}
+#footer .fgnb_T {margin:0 auto; background:#c41e20; height:50px; font-size:12px; text-align:center;}
+#footer .fgnb_T li {display: inline-block; overflow: hidden; color:#fbdfe0; margin-top:15px}
+#footer .fgnb_T li a {color:#fff; letter-spacing: -1px;}
+#footer .faddr {float:left; letter-spacing: -0.2px}
+#footer .faddr p {line-height:22px}
+
+#footer .fbtm {margin:0 auto; width:640px}
+#footer .flogo {margin:0 auto; margin-top:30px; margin-left:40px}
+#footer .faddr {margin:0 auto; position:relative; margin-top:70px; margin-left:-80px; font-size:11px; line-height:20px}
+#footer .fsw, #footer .fsite {font-size:11px}
+#footer .rfn {margin:0 auto; margin-top:30px; font-size:11px; margin-left:30px}
+}
+
+/*mobile*/
+@media screen and (max-width:640px){
+#wrap, #header, #visual, #contents, #footer {width:100%}
+
+#header .inner {max-width:640px; width:100%;}
+#header .F_logo {position:absolute; margin-left:10px; width:220px}
+#header .F_logo img {margin:0 auto; width:35px; margin-top:-30px}
+#header .topgnb {display:none}
+#header .inner2 {display:none}
+#header .main {display:none}
+#gnb_M {display:block; float:right; position:relative; margin:0 auto; margin-top:-40px; margin-right:30px;}
+#gnb_M img {display:block; margin-bottom:10px;}
+
+#search_box {margin:0 auto; position:absolute;  width:100%; text-align:center}
+#search_box fieldset {border:2px solid #c41e20; border-radius:20px; display:inline; padding:4px}
+#search_box legend {display:none}
+#search_box input[type=text] {width:250px;height:30px; border:0;}
+#search_box input[type=image] {width:28px; height:28px; vertical-align:middle}
+
+#visual .banner_m {display:block; max-width:640px;}
+#visual .banner_m img {width:100%;}
+
+#contents .tit1, #contents .tit3 {width:240px}
+#contents .tit2 {width:320px}
+
+#contents .cont1 {width:100%; height:auto}
+#contents .cont1:after {content:''; display:block; clear:both}
+#contents .cont1 p {color:#dc252e; font-size:14px;}
+
+#contents .notice {margin:0 auto; width:100%}
+#contents .notice img {margin-top:20px; float:left; width:50%; padding:0px;}
+#contents .notice li:nth-child(3) {display:none}
+#contents .notice1_2 {display:none}
+#contents .notice1_2_M {display:block; margin:0 auto; width:100%}
+#contents .notice1_2_M img {margin-top:0px; float:left; width:100%; padding:0px;}
+#contents .notice1_3 {width:100%;}
+#contents .notice1_3 img {margin:0 auto; padding:0; width:100%; height:auto; padding:0}
+#contents .notice1_3 .N13 {width:50%;}
+#contents .notice1_3_2 img {width:50%; float:left}
+#contents .notice1_3_3 img {width:50%; float:right}
+
+#contents .cont2 .tit {margin:0 auto; width:100%; height:auto; }
+#contents .cont2 p {color:#dc252e; font-size:12px; line-height:80px; }
+#contents .cont2 .notice2 {margin:0 auto; width:100%; height:480px; margin-left:-10px;}
+#contents .cont2 .notice2 img {width:100%;}
+
+/* 슬라이드 버튼 */
+.nav {width:100%}
+.prev {float:left; margin-left:10px}
+.next {float:right; margin-right:10px}
+.prev, .next {cursor: pointer; top: 50%; width: auto; padding: 16px; margin-top: -270px;
+color: white; font-weight: bold; font-size: 18px; transition: 0.6s ease; border-radius: 0 3px 3px 0;}
+/* Position the "next button" to the right */
+.next {right: 0; border-radius: 3px 0 0 3px;}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);}
+
+ #contents .con3 {margin:0 auto; width:100%; text-align:center;}
+#contents .Nicon {margin:35px 40px 0 18px}
+#contents .Nicon Img {margin:0 auto; width:50px; margin-left:20px;} 
+
+#NewAllWrap {width:100%; margin:0 auto}
+#contents .NewAll {width:100%;}
+#contents .NA1, #contents .NA3 {margin:0 auto;}
+#contents .NA1 {width:100%; float:left; height:auto;}
+#contents .NA3 {width:100%; float:right; height:auto}
+#contents .NA1 img {height:auto; width:100%; margin-bottom:0}
+#contents .NA3 img {height:auto; width:100%; margin-bottom:0}
+#contents .NA2 {display:none}
+
+#footer .fgnb, #footer .fgnb_T {display:none}
+#footer .fgnb_M {margin:0 auto; background:#c41e20; height:50px; font-size:12px; text-align:center;}
+#footer .fgnb_M li {display: inline-block; overflow: hidden; color:#fbdfe0; margin-top:18px}
+#footer .fgnb_M li a {color:#fff; letter-spacing:-1px;}
+
+#footer .fbtm {margin:0 auto; width:640px}
+#footer .flogo {margin:0 auto; margin-top:40px; margin-left:40px}
+#footer .faddr {margin:0 auto; margin-top:80px; margin-left:-80px; font-size:10.5px}
+#footer .faddr p {line-height:20px}
+#footer .fsw, #footer .fsite {display:none}
+#footer .rfn {margin:0 auto; margin-top:25px; margin-left:-120px; font-size:11px; line-height:20px; text-align:right}
+}
