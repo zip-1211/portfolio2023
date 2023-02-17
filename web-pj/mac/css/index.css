@@ -1,0 +1,18 @@
+@charset "utf-8";
+@import url("common.css");
+
+/* 보조색 : #f15454 */
+/* cont1 */
+#contents .cont1,#contents .cont2 {margin:0 auto;width:100%;margin-bottom:80px;font-size:12px}
+#contents .cont1 .cont_tit,#contents .cont2 .cont_tit,#contents .cont3 .cont_tit {font-size:24px;font-weight:400;text-align:center;margin-bottom:20px}
+#contents .cont1 div {margin-bottom:20px}
+#contents .cont1 dl {margin:0 auto;width:90%;margin-bottom:20px}
+#contents .cont1 dl dt a img {width:100%;margin-bottom:20px}
+#contents .cont1 dl dd {text-align:center;line-height:26px}
+#contents .cont1 dl dd:last-child {font-size:22px}
+#contents .cont1 p {margin:0 auto;width:180px;height:30px;background-color:#000;text-align:center;line-height:30px;}
+#contents .cont1 p a {color:#fff}
+
+/* cont2 */
+#contents .cont2 div,#contents .cont3 div {width:100%}
+#contents .cont2 div a img,#contents .cont3 div a img {width:100%}
