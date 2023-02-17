@@ -1,0 +1,99 @@
+/*!
+ * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+@media (min-width: 481px) and (max-width: 767px) {
+
+.text-white {padding-top:35px;}
+.h-100 {background-color: #343b40;}
+.text-white-50 {padding-bottom:35px}
+.text-white-50 {font-size:14px; width:420px; margin:0 auto; line-height:25px; color:#939393}
+.text-black-50 {font-size:15px; width:400px; margin:0 auto; line-height:30px}
+
+.text-lg-left h4 {padding-top:20px}
+
+}
+
+@media (min-width: 768px) {
+
+.text-white {padding-top:30px;}
+.text-white-50 {font-size:14px; padding-bottom:30px; margin-left:10px; margin-right:10px; line-height:25px}
+.featured-text h4 {padding-top:20px;}
+.mb-0 {font-size:14px; line-height:25px; padding-bottom:20px}
+#logo img {width:40px; position:absolute;}
+
+@media (min-width: 992px) {
+
+#logo img {width:8px; position:absolute;}
+.img-fluid {width:100%; height:100% !important}
+/* 465*426 */
+
+.support-section {
+  padding: 10rem 0;
+}
+
+.support-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .support-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.support-section .support-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .support-section .support-text {
+    padding: 5rem;
+  }
+
+  .support-section .support-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+  .support-section .support-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+a {
+  color: #64a19d;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #3c6360;
+}
+
+.bg-black {
+  background-color: #343b40 !important;
+}
+
+.bg-primary {
+  background-color: #64a19d !important;
+}
+
+.text-primary {
+  color: #64a19d !important;
+}
+
+.text-white-50 {color:#939393}
+
+.support-text w-100 {padding:5rem}
